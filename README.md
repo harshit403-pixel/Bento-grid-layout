@@ -36,7 +36,8 @@ BENTOGRID/
 
 
 
-🧩 Project Overview
+
+## 🧩 Project Overview
 
 🔹 Bento Grid 1
 
@@ -54,14 +55,14 @@ Magazine-style visual hierarchy
 Each project is standalone and can be opened independently.
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 HTML5
 CSS3
 Custom Fonts (OTF & WOFF2)
 
 
-🚀 How to Run
+## 🚀 How to Run
 
 Open the BENTOGRID folder
 Enter either 1 or 2
@@ -69,10 +70,11 @@ Open index.html in your browser
 open index.html
 
 
-🎯 Use Cases
+## 🎯 Use Cases
 
 Frontend layout practice
 Bento Grid experimentation
 Fashion & editorial landing pages
 
 Portfolio showcase projects
+
