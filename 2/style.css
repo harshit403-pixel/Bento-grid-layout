@@ -1,0 +1,317 @@
+@font-face {
+    font-family: inter;
+    src: url(./Inter-Regular.47e70f6ff0.woff2);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(./BebasNeue-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    scrollbar-width: none;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    gap: 13px;
+    background-color: rgb(190, 190, 190);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr .3fr 1fr .3fr 1fr ;
+}
+.top1{grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: white;
+    border-radius: 20px;
+
+    position: relative;
+    background-image: url(./3019af11c9385899787eace35e5a7baf-Photoroom.png);
+    background-size:200px;
+    background-position: 70px 1px;
+
+    background-repeat: no-repeat;
+
+}
+#green{
+    right: 2%;
+    top: 4%;
+    background-color: rgb(193, 242, 119);
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    padding: 8px 20px;
+}
+.top2{
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(https://wallpapers.com/images/hd/tactical-cap-png-06112024-o3ikn74aht47afpt.png);
+    background-position:50% 30%;
+    background-size: 250px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.left1{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(193, 242, 119);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 20px;
+}
+.left12{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.left1 img{
+    height: 26px;
+}
+.left12 button img{
+
+    height: 13px;
+}
+#whitebtn{
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100px;
+    padding: 13px 30px;
+}
+.left2{
+    position: relative;
+    background: linear-gradient(white, rgb(255, 255, 255),yellow);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.leftin{
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 40%;
+    margin-left: 100px;
+}
+.upgrade{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+
+}
+.upgrade h1{
+
+    width: 50%;
+    font-size: 55;
+}
+.upgrade p{
+    margin-top: 80px;
+    color: rgba(0, 0, 0, 0.482);
+    font-size: 10px;
+    width: 40%;
+}
+.leftin h2{
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -.8;
+}
+.left22{
+    line-height: 1;
+
+    font-size: 16px;
+    width: 20%;
+}
+.left22 h1 span{
+    font-size: 12px;
+    border-radius: 100px;
+    border: 1px solid;
+    padding: 2px 4px;
+}
+.left2 img{
+    position: absolute;
+    bottom:0;
+    
+    left: 28%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom1{
+    position: relative;
+    background-image: url(https://i.pinimg.com/1200x/54/70/8b/54708bf2f6c99529f38e39d043f09d9c.jpg);
+    background-position:95% 38%;
+    background-size:1000px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.blackgrad{
+    border-radius: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) , black);
+}
+.zara h2{
+    font-size:16px ;
+}
+.zara p{
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.332);
+    font-size: 10px;
+}
+.zara{
+    position: absolute;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 20px;
+}
+.bottom2{
+    position: relative;
+        background-image: url(https://i.pinimg.com/736x/cc/fb/dd/ccfbddd84dc74b635287557001f33961.jpg);
+    background-position: 99% 80%;
+    background-size:400px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+        background-color: white;
+    border-radius: 20px;
+}
+.bottom3{
+    position: relative;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+        background-color: rgb(193, 242, 119);
+    border-radius: 20px;
+}
+.image {
+    z-index: 3;
+    width: 100%;
+display: flex;
+justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+.image img{
+    height: 300px;
+    object-fit: cover;
+  
+}
+#style{
+    color: rgba(255, 255, 255, 0.296);
+    z-index:2;
+    font-size: 300px;
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    transform: translateX(-50%);
+    transform: translatey(-50%);
+}
+.bottom3 h1{
+    font-family: bebas;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 130px;
+    letter-spacing:10;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 14px 0px 20px;
+
+}
+.year{
+    display: flex;
+    justify-content: space-between;
+    padding:14px 20px;
+    font-size: 10px;
+    font-weight: 900;
+}
+.logo img{
+    height:30px;
+}
+.top3{
+    position: relative;
+    background-image: url(https://i.pinimg.com/736x/3b/c7/74/3bc77400bdcbaa0a9f9c9876e040f220.jpg);
+    border-radius: 20px;
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start: 1;
+    grid-row-end:4 ;
+}
+.top3 h1{
+    margin-top: 20px;
+    line-height: .9;
+    text-align: center;
+    font-size: 70px;
+    font-family: bebas;
+    color: rgba(64, 33, 33, 0.188);
+}
+.top3 img{
+    left: 10%;
+    bottom: 0%;
+    position: absolute;
+    height: 400px;
+}
+.top4{
+    background:linear-gradient( rgb(193, 242, 119), white);
+    border-radius: 20px;
+    grid-column-start: 4;
+    grid-column-end:5 ;
+    grid-row-start: 1;
+    grid-row-end:4 ;
+    position: relative;
+}
+
+.top4 h1{
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 900;
+    padding: 20px;
+}
+.greenbtn{
+    left: 26%;
+    bottom: 12%;
+    background-color: rgb(193, 242, 119);
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    padding: 20px 50px;
+}
